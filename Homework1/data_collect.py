@@ -20,7 +20,7 @@ for i in range(1,n):
 
     final_data = []
 
-    wanted_keys = ['flightdate','flightnum','airlineid','carrier','originairportid','origincityname','originstatename','destairportid','destcityname','deststate','deptime','arrtime','lateaircraftdelay','arrdelay','divarrdelay','depdelay','weatherdelay','securitydelay','depdelayminutes','nasdelay','carrierdelay'] # specify needed keys
+    wanted_keys = ['flightdate','flightnum','airlineid','carrier','originairportid','origincityname','originstatename','destairportid','destcityname','deststate','deptime','arrtime','lateaircraftdelay','arrdelay','divarrdelay','depdelay','weatherdelay','securitydelay','depdelayminutes','nasdelay','carrierdelay']
     
     for dic_item in required_data:
         newdict = {k: dic_item[k] for k in set(wanted_keys) & set(dic_item.keys())}
