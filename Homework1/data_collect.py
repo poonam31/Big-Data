@@ -46,16 +46,3 @@ for i in range(1,n):
         print("Data collected for page " + str(i))
 
 print("Data is saved to FlightData.json file!")
-
-
-
-
-
-
-
-
-
-
-
-
-
